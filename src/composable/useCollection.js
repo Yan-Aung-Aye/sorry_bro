@@ -3,9 +3,9 @@ import { ref } from "vue"
 import { db } from "../firebase/config.js"
 
 
-let useCollection = () => {
-    let error = ref("")
-    let addDoc = async () => {
+let useCollection = (collection) => {
+    let error = ref(null);
+    let addDoc = async (doc) => {
         try {
             await db.collection(collection).add(doc)
 

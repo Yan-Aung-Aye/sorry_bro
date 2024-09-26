@@ -11,7 +11,7 @@
 <script>
 import { ref } from "vue";
 import useCollection from "../composable/useCollection.js";
-// import { timestamp } from "../firebase/config.js";
+import { timestamp } from "../firebase/config.js";
 export default {
   setup() {
     let message = ref("");
@@ -20,7 +20,7 @@ export default {
     let handleSubmit = async () => {
       let chat = {
         message: message.value,
-        // created_at: timestamp(),
+        created_at: timestamp(),
       };
       await addDoc(chat);
       message.value = "";

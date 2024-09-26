@@ -2,14 +2,13 @@
 import firebase from "firebase/app"
 import "firebase/firestore";
 
-
 const firebaseConfig = {
-    apiKey: "AIzaSyBa5kNSo51KBWGyEzz3hTR32DS6DsYK_7Y",
-    authDomain: "livechat-d6e29.firebaseapp.com",
-    projectId: "livechat-d6e29",
-    storageBucket: "livechat-d6e29.appspot.com",
-    messagingSenderId: "139217339403",
-    appId: "1:139217339403:web:10a5acd5fc66b09b3af30e"
+  apiKey: "AIzaSyBFqdb6y18Ttq5KgLtOKQHZs2kmlNEBgxw",
+  authDomain: "triple3-3c106.firebaseapp.com",
+  projectId: "triple3-3c106",
+  storageBucket: "triple3-3c106.appspot.com",
+  messagingSenderId: "594509304445",
+  appId: "1:594509304445:web:b59f7d0ca4d61d340cd714"
 };
 
 
